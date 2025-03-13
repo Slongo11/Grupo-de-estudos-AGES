@@ -1,0 +1,89 @@
+:root {
+    --cor-de-fundo: #D84040;
+    --vermelho-escuro: #A31D1D;
+    --bege: #ECDCBF;
+    --bege-claro: #F8F2DE;
+  }
+html{
+    background-color: var(--bege-claro);
+}
+body{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    padding: 2%;
+    height: 90vh;
+}
+#display{
+    border-radius: 24px;
+    height: 15vh;
+    width: 80%;
+    background-color: var(--bege-claro);
+    margin: 10px;
+    padding: 30px;
+    align-items: end;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 3rem;
+    overflow: auto;
+
+}
+#resultado{
+    display: block;
+    text-align: end;
+}
+#anterior{
+    display: block;
+    text-align: end;
+}
+.teclado{
+    height: 100%;
+    width: 95%;
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 10px;
+
+}
+.teclado__tecla{
+    display: flex;
+    background-color: var(--bege);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    border:none;
+}
+.teclado__tecla:hover{
+    background-color: var(--bege-claro);
+}
+.teclado__tecla:active{
+    background-color: var(--vermelho-escuro);
+    color: var(--bege);
+}
+#calculadora{
+    width: min(400px, 100%);
+    background-color: var(--cor-de-fundo);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    padding: 1%;
+    border-radius: 24px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0);
+}
+
+@media (max-width: 470px) {
+    .teclado__tecla{
+        font-size: 1.5rem;
+    }
+    #tela{
+        width: 65%;
+    }
+    
+}
