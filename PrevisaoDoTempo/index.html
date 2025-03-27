@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Henrique Ceresér Lopes, Lucas..., Matheus..., Rodrigo Miotto Slongo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do tempo - API</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+    <body>
+        <main class="container">
+            <section class="container__pesquisa">
+                <input type="search" id="input__cidade" placeholder="Search Location">
+                <button id="btn__pesquisar"><img src="./assets/search.svg" alt=""></button>
+            </section>
+            <section class="container__informacoes--pricipal">
+                <div class="container__informacoes--pricipal__conteudo">
+                    <div class="container__informacoes--pricipal__conteudo__cima">
+                        <p id="graus__cidade"></p>
+                        <div class="container__informacoes--pricipal__conteudo__cima__localizacao">
+                            <p id="nome__cidade">Erro nada encontrado.</p>
+                            <p id="nome__pais"></p>
+                            <p id="dia__semana"></p>
+                            <p id="hora__atual__local"></p>
+                        </div>
+                        <span id="icone__tempo__cidade"></span>
+                    </div>
+                    <p id="temperaturaMaxMin__cidade"></p>
+                </div>
+               
+            </section>
+            <section class="container__informacoes--geral">
+                <div>
+                    <p class="container__informacoes--geral__icones" id="nascerDoSol"></p>
+                </div>
+                <div>
+                    <p class="container__informacoes--geral__icones" id="porDoSol"></p>
+                </div>
+                <div>
+                    <p class="container__informacoes--geral__icones" id="umidade"></p>
+                </div>
+               <div>
+                    <p class="container__informacoes--geral__icones" id="ventania"></p>
+               </div>
+            </section>
+
+            <section class="container__informacoes--secundaria">
+                <div class="container__informacoes--secundaria__hora">
+
+                </div>
+                <div class="container__informacoes--secundaria__semana">
+                    
+                </div>
+            </section>
+        </main>
+        <script src="./scripts/index.js" type="module"></script>
+    </body>
+</html>
