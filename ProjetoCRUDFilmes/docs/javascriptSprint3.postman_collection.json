@@ -1,0 +1,186 @@
+{
+    "info": {
+        "_postman_id": "6c3fee39-d96d-46f5-95fc-4c9278f8954a",
+        "name": "javascriptSprint3",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "_exporter_id": "41722915"
+    },
+    "item": [
+        {
+            "name": "films",
+            "item": [
+                {
+                    "name": "Get all films",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{base_url}}/films",
+                            "host": ["{{base_url}}"],
+                            "path": ["films"]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Get film by id",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{base_url}}/films/{{id}}",
+                            "host": ["{{base_url}}"],
+                            "path": ["films", "{{id}}"]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Create film",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"title\": \"Hobbit\",\n    \"description\": \"follows Bilbo Baggins as he joins a group of dwarves on a quest to reclaim their lost kingdom, Erebor, from the dragon Smaug, encountering various dangers and the infamous ring along the way\",\n    \"director\": \"Peter Jackson\",\n    \"releaseYear\": 2012,\n    \"genres\": \"Action\"\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "{{base_url}}/films",
+                            "host": ["{{base_url}}"],
+                            "path": ["films"]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Update film",
+                    "request": {
+                        "method": "PATCH",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"title\": \"Hobbitet\",\n    \"description\": \"very cool advento\",\n    \"director\": \"Me bobo\",\n    \"releaseYear\": 2011,\n    \"genres\": \"Drama\"\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "{{base_url}}/films/{{id}}",
+                            "host": ["{{base_url}}"],
+                            "path": ["films", "{{id}}"]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Delet film",
+                    "request": {
+                        "method": "DELETE",
+                        "header": [],
+                        "url": {
+                            "raw": "{{base_url}}/films/{{id}}",
+                            "host": ["{{base_url}}"],
+                            "path": ["films", "{{id}}"]
+                        }
+                    },
+                    "response": []
+                }
+            ]
+        },
+        {
+            "name": "reviews",
+            "item": [
+                {
+                    "name": "Get all reviews",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{base_url}}/reviews",
+                            "host": ["{{base_url}}"],
+                            "path": ["reviews"]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Get review by id",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{base_url}}/reviews/{{id}}",
+                            "host": ["{{base_url}}"],
+                            "path": ["reviews", "{{id}}"]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Create review",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": " {   \n    \"review\": \"Really good film, i love it <3\",\n    \"rating\": 9.7,\n    \"filmId\": 1\n }",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "{{base_url}}/reviews",
+                            "host": ["{{base_url}}"],
+                            "path": ["reviews"]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Update film Copy",
+                    "request": {
+                        "method": "PATCH",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"review\": \"Really, i love it <3\",\n    \"rating\": 6\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "{{base_url}}/reviews/{{id}}",
+                            "host": ["{{base_url}}"],
+                            "path": ["reviews", "{{id}}"]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Delet film Copy",
+                    "request": {
+                        "method": "DELETE",
+                        "header": [],
+                        "url": {
+                            "raw": "{{base_url}}/reviews/{{id}}",
+                            "host": ["{{base_url}}"],
+                            "path": ["reviews", "{{id}}"]
+                        }
+                    },
+                    "response": []
+                }
+            ]
+        }
+    ]
+}
