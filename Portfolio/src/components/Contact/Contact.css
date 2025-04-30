@@ -1,0 +1,43 @@
+#contact{
+    padding: 15% 0%;
+    width: 100%;
+    background-image: var(--borda-cima), var(--borda-baixo);
+    background-repeat: no-repeat;
+    background-position: top, bottom;
+    background-size: contain;
+    display: inline-flex;
+    color: var(--preto);
+    justify-content: space-around;
+}
+.social-midia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    width: 350px;
+}
+.social-midia a{
+    width: 120px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.social-midia__brand{
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.social-midia__name{
+    font-size: 48px;
+}
+
+@media (max-width: 750px) {
+    #contact{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}

@@ -1,0 +1,32 @@
+.header{
+    height: 100px;
+    background-color: #363636;
+    padding: 10px;
+    text-align: center;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.header ul{
+    display: inline-flex;
+    gap: 80px;
+    margin-right: 40px;
+
+}
+.header ul li a {
+    text-decoration: none;
+    color: var(--branco);
+}
+.text{
+    font-size: 2rem;
+}
+
+@media (max-width: 1050px) {
+    .header ul{
+        overflow-x: scroll;
+    }
+}

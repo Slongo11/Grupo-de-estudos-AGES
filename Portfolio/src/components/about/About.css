@@ -1,0 +1,21 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    padding: 0% 10%;
+    margin-bottom: 10%;
+    width: 100%;
+    color: var(--preto);
+    box-sizing: border-box;
+}
+.about h2{
+    font-size: 3rem;
+    max-width: 750px;
+    margin-bottom: 30px;
+
+}
+.about p{
+    font-size: 2rem;
+}
+.about p, .about h2{
+    max-width: 750px;
+}

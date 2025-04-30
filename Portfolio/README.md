@@ -25,3 +25,12 @@ Para começar o projeto um [figma](https://www.figma.com/design/fruVFQKRSWE6tU8m
 ### Definição das cores
 
 - [Cores](https://colorhunt.co/palette/363636dc2f2fff894cf8f8f8)
+
+### Encontrar imagens desejadas
+
+- [Imagens preto e branco](https://www.svgrepo.com/)
+- [Imagens bonitas mas a maioria paga](https://icons8.com/)
+
+## Vercel
+
+Após desenvolver o portfólio está disponibilizado na [Vercel]()
