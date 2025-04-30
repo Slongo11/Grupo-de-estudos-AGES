@@ -17,3 +17,7 @@ Para essa sprint de uma semana, foi solicidado para fazer o backend de uma aplic
 ## Sprint 4
 
 Para esta sprint grupos foram formados para que assim realizem a conexão com o front, sendo o que o front já foi disponibilizado, assim foi necessário utilizar o [Nestjs](https://docs.nestjs.com/) para fazer  o backend do projeto. `Gerenciador de containers`, `typeScript` e outras tecnologias foram utilizadas durante o desenvolvimento do projeto. Para mais informações o `README.md` do projeto apresenta seus contribuidores, como executar o projeto por meio de um simples comando de um script. No entando o trabalho não está 100% completo conforme solicitado, logo que o front não estava de acordo, e o backend faltou algumas funções (validação por level além de outras) e a separação do service com o repositório. Apesar da incompletude do projeto, foi de grande aprendizado para que em próximas oportunidades fazer melhor.
+
+## Sprint 5
+
+Para esta sprint o desafio proposto é de modelar um portfólio, com uma nova tecnologia de desenvolvimento do front `React`, usando `TypeScript` para desenvolver junto com essa biblioteca. Além disso, foi utilizado o `Vite` para inicializar o projeto. Com isso, para finalizar o projeto foi feito deploy na [Vercel](https://grupo-de-estudos-ages.vercel.app/).

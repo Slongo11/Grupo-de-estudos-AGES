@@ -5,7 +5,7 @@ const BoxInfo = (props: {url: string, alt: string, info1?: string, info2?: strin
             <p>{props.info1}</p>
             <p>{props.info2}</p>
             <p>{props.info3}</p>
-            <a href={props.more}>Mais Informações</a>
+            <a href={props.more}>More information</a>
         </div>
     );
 }

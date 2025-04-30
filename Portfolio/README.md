@@ -33,4 +33,4 @@ Para começar o projeto um [figma](https://www.figma.com/design/fruVFQKRSWE6tU8m
 
 ## Vercel
 
-Após desenvolver o portfólio está disponibilizado na [Vercel]()
+Após desenvolver o portfólio está disponibilizado na [Vercel](https://grupo-de-estudos-ages.vercel.app/)
